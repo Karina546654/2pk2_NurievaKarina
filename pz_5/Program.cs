@@ -7,7 +7,7 @@ namespace pz_5
         static void Main(string[] args)
         {
             //Первое задание
-            Console.WriteLine("Задание 1");
+            Console.WriteLine("Задание 1:");
             int a = 10;
             int b = 60;
            
@@ -16,7 +16,7 @@ namespace pz_5
                 Console.WriteLine(i);
             }
             //Второе задание
-            Console.WriteLine("Задание 2");
+            Console.WriteLine("Задание 2:");
 
             char  simv= 'Д';
             for (var i = 0; i < 7; i++)
@@ -25,7 +25,7 @@ namespace pz_5
                 simv++;
             }
             //Третье задание
-            Console.WriteLine("Задание 3");
+            Console.WriteLine("Задание 3:");
             var dd = '#';
             for (int i = 0; i != 9; i++)
             {
@@ -36,7 +36,7 @@ namespace pz_5
                 Console.WriteLine();
             }
             //Четверое задание
-            Console.WriteLine("Задание 4");
+            Console.WriteLine("Задание 4:");
             for (int i = 1; i != 100; i++)
             {
                 var k = i % 7;
@@ -46,7 +46,7 @@ namespace pz_5
                 }
             }
             //Пятое задание
-            Console.WriteLine("Задание 5");
+            Console.WriteLine("Задание 5:");
 
             for (int i = 3, j = 82; Math.Abs(i - j) != 35; i++, j--)
             {
