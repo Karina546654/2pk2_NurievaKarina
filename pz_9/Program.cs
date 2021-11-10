@@ -29,7 +29,7 @@ namespace pz_9
             {
                 for (int j = 0; j < r; j++)
                 {
-                    Console.Write(Matrix[i, j] + "\t");
+                    Console.Write(Matrix[i, j] );
                 }
                 Console.WriteLine();
 
