@@ -13,7 +13,7 @@ namespace pz_12
             {
                 if (str == "exit") break; //Чтобы досрочно завершить программу
 
-                str += Console.ReadLine() + a; //Прибавляем строку к предыдущей
+                str += Console.ReadLine() + a;  //Прибавляем строку к предыдущей
 
                 Console.WriteLine(str); //Выводим
             }
