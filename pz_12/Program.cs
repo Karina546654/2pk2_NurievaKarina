@@ -7,7 +7,8 @@ namespace pz_12
         static void Main(string[] args)
         {
             string str = " ";
-            string a = " "; //Добавим разделение(пробел)
+            //Добавим разделение(пробел) 
+            string a = " ";
             while (true)
             {
                 if (str == "exit") break; //Чтобы досрочно завершить программу
